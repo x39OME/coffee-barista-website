@@ -1,0 +1,460 @@
+/*Start My Framework*/
+.my-button{
+    background: none;
+    border: 3px solid #422113;
+    padding:10px 30px;
+    color:#fff;
+    cursor: pointer
+}
+.fl-left{float: left
+}
+.fl-right{float: right
+}
+p {line-height: 1.5
+}
+.text-center{text-align: center
+}
+/*End My Framework*/
+
+/*Start main rulez*/
+*{box-sizing: border-box
+} 
+
+/*Media*/
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+        margin: auto;
+    }
+}
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+        margin: auto;
+    }
+}
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+        margin: auto;
+    }
+}
+.clearfix{clear: both
+}
+/*End main rulez*/
+/*Start Header 1*/
+.header .navbar{
+    overflow: hidden
+}
+.header .navbar h2{color:#896541
+}
+.header .navbar h2 span{color:#EAE7DE
+}
+.logo{
+    padding:7px 13px;
+    margin:10px;
+    background-color: #EAE7DE;
+    text-align: center;
+    border: 3px solid #EAE7DE;
+    cursor: pointer
+}
+.logo:hover{
+    border:3px solid #896541
+}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow:hidden;
+    float: right
+}
+.header .navbar ul li{float: left;padding:10px
+}
+.header .navbar ul li a {
+    color:#EAE7DE;
+    text-decoration: none;
+    font-weight: bold
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{color:#896541
+}
+.header .slider{
+    background-image: url(../images/header.jpg);
+    background-size: cover; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    height: 600px
+}
+.header .slider .intro{
+    text-align: center;
+    padding:0
+}
+.header .slider .intro h2{
+    margin:0 auto;
+    font-size: 50px;
+    width:600px;
+    border-top:4px double #EAE7DE;
+    border-bottom:4px double #EAE7DE;
+    padding:5px 0;
+    opacity: .8;
+    font-family: 'Courier New', Courier, monospace;
+    color:#fff;
+    cursor: pointer
+}
+.header .slider .intro h2:hover{
+    background-color:#EAE7DE;
+    color:#000
+}
+.header .slider .intro button{
+    background: none;
+    color:#fff;
+    margin-top: 30px;
+    font-size: 20px;
+    border:5px double #fff;
+    font-weight: bold;
+    padding:10px 30px;
+    opacity: .8;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer
+}
+.header .slider .intro button:hover{
+    background-color: #EAE7DE;
+    color:#000
+}
+.header .slider .intro ul{list-style:none; padding-left:0
+}
+.header .slider .intro ul li{
+        width:12px;
+        height: 12px;
+        border:2px solid #EAE7DE;
+        border-radius: 50%;
+        margin:5px 5px 0 0;
+        display: inline-block;
+        cursor: pointer
+    }
+.header .slider .intro ul li.active{background-color:#EAE7DE
+}
+.header .slider .intro ul li:hover{
+    background-color: #EAE7DE;
+    color:#000
+}
+/*End Header 1*/
+/* Start Early Coffee 2*/
+.early-coffee {overflow: hidden; padding:40px 0 50px 0;background-color:#fff
+}
+.early-coffee .early{width:33.33333%;height: 150px
+}
+.early-coffee .early p{margin:15px;color:#666666
+}
+.early-coffee .early h2{color:#422113;margin: 12px
+}
+/* End Early Coffee 2*/
+/*start We Create Delicious 3 */
+.delicious{background-color:#896541;overflow:hidden
+}
+.delicious .image{width: 70%;margin:0 -15px 0px 0px;padding:25px 0 25px 180px
+}
+.delicious img{margin: 20px;cursor: pointer
+}
+.delicious .image img:hover{opacity: .7
+}
+.delicious .info{width:30%
+}
+.delicious .info img {width:30%;margin:0 0 5px 40px;padding:0 0 15px 0
+}
+.delicious .info h2{ color:#fff
+}
+.delicious .info > p{ float: left;color:#fff
+}
+.delicious .info > p:last-of-type{margin-top:10px
+}
+.delicious .info .morning{overflow: hidden;margin:20px 0 0 40px
+}
+.delicious .info .morning .content{width:50%;overflow: hidden
+}
+/*End We Create Delicious 3*/
+/*start Coffee Base 4 */
+
+.coffee-base{background-color:#ffffff;overflow:hidden
+}
+.coffee-base .image img{width:100%
+}
+.coffee-base .info{width:100%
+}
+.coffee-base .info h2{margin:20px auto; color:#422113; text-align: center
+}
+.coffee-base .info .question{margin:20px 0; color:#896541; text-align: center
+}
+.coffee-base .info > p{margin:0px 0 10px 40px; color:#fff; text-align: center
+}
+.coffee-base .info > p:last-of-type{margin-top:15; color:#896541
+}
+.coffee-base .info .coffee-morning{overflow: hidden;margin:20px 0 0 40px
+}
+.coffee-base .info .coffee-morning .content{width:33.333%;overflow: hidden
+}
+.coffee-base .info .coffee-morning .content .icon{width:1%;margin-right:5%; float: left
+}
+.coffee-base .info .coffee-morning .content .icon img{padding: 30px;
+    color: #896541;
+    overflow: hidden;
+    width: 200px;
+    height: 175px;
+    margin-left:70px
+}
+.coffee-base .info .coffee-morning .content .text{
+    width:83%;
+    text-align:center;
+    padding:30px 30px 0 0
+}
+.coffee-base .info .coffee-morning .content .text p{
+    color:#666;
+    margin-right:-35px;
+    margin-bottom: 30px
+}
+.coffee-base .info .coffee-morning .content .text h3{
+    padding-top:130px;
+    color:#422113;
+    margin-left:35px
+}
+.coffee-base hr{
+    margin:20px auto;
+    background-color:#896541;
+    height:1px;
+    width:200px;
+    border:0;
+    text-align:center;
+    font-weight: bold;
+}
+/*End Coffee Base 4*/
+/* Start Our Coffee 5 */
+.our-coffee{background-color:#896541;overflow: hidden
+}
+.our-coffee .image img{
+    width: 100%;
+    height: 280px;
+    margin: 25px 0px 15px -20px;
+    padding: 10px 20px 10px 10px
+}
+.our-coffee .coffee{width: 33.333%
+}
+.our-coffee .coffee h2 {color:#422113;margin:10px 0
+}
+.our-coffee .coffee button{
+    border: 2px solid #fff;
+    background:#FFF;
+    color:#896541;
+    margin-bottom: 30px
+}
+.our-coffee .coffee button:hover{background-color:#422113;color:#fff
+}
+.our-coffee .coffee p{ color:#fff;width:85%;padding:5px 0
+}
+.our-coffee .coffee h2{color:#422113; font-weight: bold;margin:0
+}
+.our-coffee .coffee h2 span{color:#fff; font-size: smaller
+}
+.our-coffee .coffee{overflow: hidden;margin:20px auto
+}
+/* End Our Coffee 5 */
+/*Start My Coffee 6 */
+.my-coffee{background-color:#fff;overflow:hidden
+}
+.my-coffee .image img{width:100%
+}
+.my-coffee .info{width:100%
+}
+.my-coffee .info .p{margin:20px 0; color:#896541; text-align: center
+}
+.my-coffee .info > p{margin:0px 0 10px 40px; color:#fff; text-align: center
+}
+.my-coffee .info > p:last-of-type{margin-top:15; color:#896541
+}
+.my-coffee .info .morning{overflow: hidden;margin:20px 0 0 40px
+}
+.my-coffee .info .morning .content{width:25%;overflow: hidden
+}
+.my-coffee .info .morning .content .icon{width:1%;margin-right:3%; float: left
+}
+.my-coffee .info .morning .content .icon img{
+    margin:-10px 0px 0 30px;
+    padding:30px;
+    color:#896541;
+    overflow: hidden
+}
+.my-coffee .info .morning .content .text{
+    width:83%;
+    text-align: center;
+    padding:30px 30px 0 0
+}
+.my-coffee .info .morning .content .text p{
+    margin-top:10px;
+    color:#666666;
+    padding-bottom: 20px;
+    font-size:16px
+}
+.my-coffee .info .morning .content .text h3{
+    margin-bottom:10px;
+    padding-top:130px;
+    color:#422113;
+    margin-right: 0
+}
+.my-coffee hr{
+    margin:20px auto;
+    background-color:#896541;
+    height:1px;
+    width:300px;border:0;
+    text-align: center
+}
+/*End My Coffee 6 */
+/*Start Testimonials 7 */
+.testimonials{
+    background-color: #896541;
+    padding:50px 0 50px 0;
+    text-align: center
+}
+.testimonials q{
+    line-height: 1.8;
+    color:#fff;
+    font-size:18px;
+    font-style:italic;
+    font-weight: bold
+    /*font:italic bold 18px/1.8 tahoma, Arial;*/
+}
+.testimonials h3{margin-bottom: 30px;color:#fff
+}
+.testimonials ul{list-style: none;padding-left:0
+}
+.testimonials ul li{
+    width:12px;
+    height: 12px;
+    border:2px solid #EAE7DE;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer
+}
+.testimonials ul li.active{background-color:#EAE7DE
+}
+.testimonials ul li:hover{background-color:#EAE7DE
+}
+/*End Testimonials 7 */
+/*Start Our Shop 8 */
+.our-shop{padding:50px 0 70px 0;
+    text-align: center;
+    background-color: #fff
+}
+
+.our-shop p{margin-bottom: 36px;color:#666
+}
+.our-shop h2{color:#000
+}
+.our-shop .our-work{overflow: hidden
+}
+.our-shop .our-work > div{float: left;width:33.33333%; margin: 0 0 10px 0
+}
+.our-shop .our-work > div img{
+    width:92%;
+    height: 243px;
+    margin:10px;
+    padding:5px;
+    background-color: #EAE7DE;
+    border:1px solid #CCC;
+    box-shadow: 10px 10px 12px #CCC;
+    cursor: pointer
+}
+/*End Our Shop 8 */
+/*Start Contact Us */
+
+.contact-us{
+    background-color: #896541;
+    overflow: hidden;
+    padding-top:50px;
+    padding-bottom:70px
+}
+.contact-us .info{width:50%;margin-left: 5%
+}
+.contact-us h2{color:#fff;margin-left:40px
+}
+.contact-us p {color:#fff;margin-left: 40px
+}
+.contact-us p strong{color:#422113
+}
+.contact-us .open{
+    position: relative
+}
+.contact-us .open ul li{
+    list-style:none;
+    margin:5px auto;
+    color:#EAE7DE;
+    font-weight:bold;
+    padding:5px
+}
+.contact-us .open ul li span{
+    color: #422113;
+    position: absolute;
+    left: 195px
+}
+
+.contact-us .open ul li::after{
+    content: '';
+    display: flex;
+    width: 240px;
+    border-bottom: 1px solid;
+    margin-top: 5px;
+    color: #fff
+}
+.contact-us .form{width:45%
+}
+.contact-us .form label{display: block;color:#fff;margin:10px 0 10px 0
+}
+.contact-us .form input[type="text"],[type="email"],
+[type="tel"]{
+    background-color: #fff;
+    color:#fff;
+    padding:10px;
+    border:0;
+    width:80%;
+    margin-bottom: 10px
+}
+.contact-us .form textarea{
+    background-color: #fff;
+    color:#fff;
+    padding:10px;
+    border:0;
+    width:80%;
+    margin-bottom: 10px;
+    height: 180px
+}
+.contact-us .form [type="submit"]{
+    background-color: #fff;
+    color:#896541;
+    padding:10px 20px;
+    margin-top: 10px;
+    border:2px solid #422113;
+    cursor: pointer
+}
+/*End Contact Us */
+/*Start Footer */
+.footer{
+    background-color:#fff;
+    color:#896541;
+    padding:20px 0;
+    text-align: center;
+    overflow: hidden
+}
+.footer ul{
+    list-style:none;
+    padding-left:0;
+    margin:10px 0 0
+}
+.footer ul li{display:inline-block;margin-left:5px
+}
+.footer ul li i:hover{
+    background-color:#896541;
+    color:#fff;
+    cursor: pointer
+}
+/*End Footer*/
